@@ -1,0 +1,91 @@
+body {
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+h1, h2 {
+    font-family: "Roboto Slab", serif;
+    color: #ffa100;
+}
+#home-wallpaper {
+    background-image: url("beach-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-title {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 13%;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 50, 71);
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+#nav li a:hover {
+    color: #ffa100;
+}
+#title {
+    text-decoration: underline;
+}
+#quote {
+    font-style: italic;
+    font-size: 20px;
+}
+#about-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: center;
+    padding-bottom: 16px;
+    background: rgba(17, 27, 63, .7);
+}
+#about-content p {
+    text-align: left;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-content table {
+    margin: auto;
+}
+#about-content ul, #about-content ol {
+    width: 17%;
+    margin: auto;
+    text-align: left;
+}
+#resume-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: left;
+    padding: 16px 10px 16px 10px;
+    background: #ffffff;
+    color: #000000;
+}
+#resume-content h1, #resume-content h3 {
+    text-align: center;
+    color: #000000;
+}
+#italic {
+    font-style: italic;
+}
+#contact {
+    text-align: center;
+}
