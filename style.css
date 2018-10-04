@@ -76,12 +76,12 @@ h1, h2 {
     margin-top: 16px;
     text-align: left;
     padding: 16px 10px 16px 10px;
-    background: #ffffff;
-    color: #000000;
+    background: rgba(17, 27, 63, .7);
+    color: #ffffff;
 }
 #resume-content h1, #resume-content h3 {
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 #italic {
     font-style: italic;
