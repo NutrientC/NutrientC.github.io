@@ -103,6 +103,7 @@ h1, h2 {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    text-indent: 30px;
 }
 #portfolio-content h3 {
     text-decoration: underline;

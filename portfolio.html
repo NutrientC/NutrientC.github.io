@@ -14,23 +14,39 @@
             <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
         <div id="portfolio-content">
+        <br>
         <h1>Welcome to My Game Portfolio!</h1>
         <hr>
-        <h2>Hero Trial</h2>
+        <a href="#game2">The Heroic Princess?</a>
+        <hr>
+        <h2 id="game1">Hero Trial</h2>
         <img src="hero-trial-home.png" alt="Hero Trial Home Screen" width=50%>
         <br>
         <img src="hero-trial-in-game.png" alt="Hero Trial In-Game Screen" width=50%>
         <br>
+        <br>
         <a href="https://scratch.mit.edu/projects/258846154/#player">Click here to play!</a>
         <h3>Description:</h3>
         <p>In the game Hero Trial, the player is a hero-in-training who must clear a trial of dangerous monsters in order to become a true legend. When the player is able to defeat a slime monster, they earn a point. Randomness is used to determine when the slime will spawn and how fast the slime will move. Once the player reaches 15 points, the slime will being to spawn much faster and move much quicker. The game is won when the player earns 30 points. The game is lost when the player loses 3 of their lives.</p>
-        <h3>Reflection:</h3>
+        <h3>Self-Reflection:</h3>
         <p>My lonely childhood consisted of me longing to be an admired hero who would save those in trouble. This inspired my partner and me to create a game where the player would be able to become a true hero if they clear the daunting task ahead of them. Also, I have an app on my phone called Will Hero that also gave my group some inspiration for the game. One successful point in the development process was making our own characters from scratch. We were able to design our own character, walking animation, standing animation, and attack animation. Another successful point is getting the home screen to work smoothly. Two obstacles that arose included allowing both of us to work on the game at the same time and finding a way to implement a score system into the game. We overcame the first obstacle by having one of us create a remix of the game and working on the code in a second account. However, this proved to be inefficient as we would use different algorithms for different characters, which made one of our characters (the knight) unplayable. We overcame the second obstacle by making it so if the player kills a slime, they would earn one point. If my parter and I had more time, we would fix the game so the knight character would be playable, add different kinds of monsters, and add powerups.</p>
         <h3>Helpful Algorithm:</h3>
         <img src="hero-trial-algorithm.png" alt="Hero Trial Algorithm">
         <p>This is an algorithm because it calculates the x-position and y-position of the wizard to determine where the fireball will spawn. It also sets the rule that it will continue until it reaches the edge of the screen or until it touches the slime. Essentially, the algorithm makes it so when the space bar is pressed, the wizard will shoot a fireball that will continue to fly until it hits a slime or reaches the edge of the screen.</p>
-        <h3>More Blocks!</h3>
+        <h3>More Blocks:</h3>
         <img src="hero-trial-more-blocks.png" alt="Hero Trial More Blocks">
+        <hr>
+        <h2 id = "game2">The Heroic Princess?</h2>
+        <h3>Storyline:</h3>
+        <p>You're a princess who is being held hostage in a strange tower by a terrifying monster. A knight in rusty armor bravely barges in to try to save you, but his cowardice and patheticness renders him useless. Now, it's up to you to find a way to escape from the beast.</p>
+        <h3>Flowchart:</h3>
+        <a href="https://docs.google.com/drawings/d/1OpHU2mUfm7nHEFfy6OX3Ag-RwECkligfxBrR-ruEneM/edit?usp=sharing"><img src="the-heroic-princess-flowchart.png" alt="The Heroic Princess? Flowchart" width=70%></a>
+        <h3>Self-Reflection:</h3>
+        <p>First, I brainstormed ideas for my story, placing it in a flow chart. Afterwards, I organized the scenes into functions. Now, I needed to implement a system so the user can input a decision at a decision point. I tried to use an or boolean operator in the while loop, but it didn't work properly. While inputting "1" successfully ran option 1, inputting "2" resulted as invalid. Since the test failed, I had to refine the code and settled on using the in function with the string "12" for the condition instead. This successfully allowed the user to choose either option by inputting "1" or "2." Then, I made a typing function by importing sleep to create a delay between each character appearing in the console. In the first test, the text appeared too fast, making it difficult for the user to follow. I adjusted the delay accordingly, but this time, the delay was too long, making the story drag out. I kept refining the code until I reached a happy medium that was a comfortable pace for the user to read.</p>
+        <p>Organizing scenes of my story into functions enables myself to later call on the function to play out the scene without worrying about how the function works. This way, in order to play out a scene that I want, all I have to do is simply call on the function and not worry about coding out the scene. This is a a form of procedural abstraction, which is implementing functions that when called on computes an algorithm or process.</p>
+        <p>One story I particularly liked was Batman's Trilogy because the results were sometimes completely unexpected, random, and outright ridiculous. This made the story stand out from the rest. </p>
+        <h3>Here's the Story!</h3>
+        <iframe height="400px" width="100%" src="https://repl.it/@ClementNguyen/chooseYourOwnAdventure?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
         </div>
     </body>
 </html>
